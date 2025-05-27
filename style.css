@@ -1,6 +1,11 @@
 /* Reset and base styles */
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: #ffffff;
@@ -11,12 +16,11 @@ body {
 header {
   text-align: center;
   padding: 3rem 1rem;
-  background: transparent;
 }
 
 header h1 {
   font-size: 3rem;
-  margin: 0;
+  margin-bottom: 0.5rem;
   color: #7ee8fa;
 }
 
@@ -51,6 +55,7 @@ header p {
   margin-bottom: 2rem;
 }
 
+/* Grid layout */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -91,7 +96,7 @@ header p {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Special center project */
+/* Center KFC project */
 .project.center {
   grid-column: 1 / -1;
   max-width: 500px;
@@ -108,3 +113,4 @@ footer {
   color: #a0dfff;
   margin-top: 3rem;
 }
+
