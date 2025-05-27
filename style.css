@@ -1,26 +1,22 @@
-/* Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Reset and base styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: #ffffff;
   line-height: 1.6;
-  padding-bottom: 3rem;
 }
 
-/* Header */
+/* Header styles */
 header {
   text-align: center;
   padding: 3rem 1rem;
+  background: transparent;
 }
 
 header h1 {
   font-size: 3rem;
+  margin: 0;
   color: #7ee8fa;
 }
 
@@ -29,68 +25,60 @@ header p {
   color: #c3f0ff;
 }
 
-/* About Section */
+/* About section */
 .about {
   max-width: 800px;
   margin: 2rem auto;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   color: #e0f7fa;
-  backdrop-filter: blur(8px);
 }
 
-/* Projects Section */
+/* Projects section */
 .projects {
   max-width: 1200px;
   margin: 3rem auto;
-  padding: 0 1rem;
+  padding: 1rem;
   text-align: center;
 }
 
 .projects h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #00e5ff;
   margin-bottom: 2rem;
 }
 
-/* Grid Layout */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  justify-items: center;
+  justify-content: center;
 }
 
-/* Project Box */
 .project {
   background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 18px;
   padding: 1.5rem;
-  width: 100%;
-  max-width: 350px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: #d0faff;
 }
 
 .project h3 {
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-  color: #80ffea;
-}
-
-.project p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  color: #69f0ae;
 }
 
 .project a {
-  color: #7ee8fa;
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #00e5ff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   transition: color 0.2s ease;
 }
 
@@ -99,17 +87,17 @@ header p {
 }
 
 .project:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Centered Project */
+/* Special center project */
 .project.center {
-  grid-column: span 2;
-  max-width: 600px;
-  background: rgba(0, 0, 0, 0.2);
+  grid-column: 1 / -1;
+  max-width: 500px;
+  margin: 2rem auto;
+  background: rgba(0, 0, 0, 0.3);
   border: 2px solid #7ee8fa;
-  text-align: center;
 }
 
 /* Footer */
