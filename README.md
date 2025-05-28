@@ -1,4 +1,4 @@
-# Jalil Johnson Final Project Portfolio 
+# Jalil Johnson Final Project Portfolio 🎮
 
 ## About Me
 Hi! I’m Jalil J., a student developer currently enrolled in AP Computer Science. I’m passionate about programming and love creating interactive games through code. Over the past year, I’ve grown more confident in my skills and have enjoyed the process of learning and building with HTML, CSS, and JavaScript.
