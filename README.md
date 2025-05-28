@@ -14,9 +14,9 @@ This final project is a personal portfolio website that showcases the games and 
 
 ## Featured Projects
 - **Game 1: French Catacombs** - A Rpg game that Francis, Rice, Kierian, and me made. Staring Furina from the series Genshin Impact.
-- **Game 3: Dino game (with Obama)** - A classic no-internet game, but with Obama! Created this with Francis.
-- **Game 4: Endless Game survival** - A simple survival challenge game with increasing difficulty.
-- **Game 5: KFC(licker)** -A fun KFC-clicking game. Tap to earn and upgrade! Created this with kierian.
+- **Game 2: Dino game (with Obama)** - A classic no-internet game, but with Obama! Created this with Francis.
+- **Game 3: Endless Game survival** - A simple survival challenge game with increasing difficulty.
+- **Game 4: KFC(licker)** -A fun KFC-clicking game. Tap to earn and upgrade! Created this with kierian.
 
 ## Links
 - 🔗 [GitHub Repository](https://github.com/Randomman123598/Project-Portfolio.github.io)  
