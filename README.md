@@ -1,11 +1,24 @@
 # Jalil Johnson Final Project Portfolio 
 
-- Hello, my name is Jalil Johnson and I am a student programmer in Ap Comp-sci. I would say that i am a some what good programer and am having a fun time making games with code and learning about code.
+## About Me
+Hi! I’m Jalil J., a student developer currently enrolled in AP Computer Science. I’m passionate about programming and love creating interactive games through code. Over the past year, I’ve grown more confident in my skills and have enjoyed the process of learning and building with HTML, CSS, and JavaScript.
 
-- Over the past year, I’ve learned development tools, practiced writing clean and efficient code, and learned how to turn ideas into interactive digital experiences. I'm continuing to grow as a programmer and always looking for new challenges during the year.
+## About This Project
+This final project is a personal portfolio website that showcases the games and projects I've developed during the school year. Throughout the year, I’ve learned how to write cleaner and more efficient code, use development tools effectively, and bring creative ideas to life on the web. This project reflects my growth as a programmer and my excitement for coding.
 
-- My project is a website with a modern look to it and a blue color to it. This website is made using Html and CSS codes in this folder. When hovering over the boxes where games are in you can see they can move and when clicking on the link it would bring you to the game you selected.
+## Portfolio Overview
+- Modern website design with a blue-themed color palette
+- Built using HTML and CSS
+- Interactive hover effects on project cards
+- Clickable links that lead directly to playable game pages
 
-- [My Code](https://github.com/Randomman123598/Project-Portfolio.github.io)
+## Featured Projects
+- **Game 1: Password Generator** – A Password Generator app that helps you make safe passwords for accounts.
+- **Game 2: Black Jack** – A Black Jack game that is fun and playable.
+- **Game 3: Dino game (with Obama)** - A classic no-internet game, but with Obama! Created this with Francis.
+- **Game 4: Endless Game survival** - A simple survival challenge game with increasing difficulty.
+- **Game 5: KFC(licker)** -A fun KFC-clicking game. Tap to earn and upgrade! Created this with kierian.
 
-- [Final Portfolio Website](https://randomman123598.github.io/Project-Portfolio.github.io/)
+## Links
+- 🔗 [GitHub Repository](https://github.com/Randomman123598/Project-Portfolio.github.io)  
+- 🌐 [Live Site on GitHub Pages](https://randomman123598.github.io/Project-Portfolio.github.io/)
